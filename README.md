@@ -70,24 +70,19 @@ barcode77.fastq
 Because the original FASTQ file is large, it may not always be uploaded directly to GitHub.
 However, the workflow is written so that the analysis can be reproduced as long as the input FASTQ file is available locally.
 
-Software and Environment
+## Software and Environment
 
 This project uses a Conda environment to ensure reproducibility.
 
 The required software is defined in:environment.yml
 Main tools and libraries used in the project include:
-
 Snakemake
-
 NanoPlot
-
 Python
-
 pandas
-
 matplotlib
 
-Bioinformatics Pipeline for Long-Read Quality Control
+## Bioinformatics Pipeline for Long-Read Quality Control
 │
 ├── Snakefile
 ├── environment.yml
@@ -113,109 +108,56 @@ Bioinformatics Pipeline for Long-Read Quality Control
 └── communication
     └── email_to_professor.md
 
-Pipeline Steps in Detail
+## Pipeline Steps in Detail
 Step 1: Quality Control with NanoPlot
-
 The first part of the workflow uses NanoPlot, which is a QC tool specifically designed for long-read sequencing data such as Oxford Nanopore reads.
-
 NanoPlot produces several QC outputs, including:
-
 HTML reports
-
 read length histograms
-
 quality score plots
-
 scatter plots
-
 summary statistics
-
-These files are stored in:Pipeline Steps in Detail
-Step 1: Quality Control with NanoPlot
-
-The first part of the workflow uses NanoPlot, which is a QC tool specifically designed for long-read sequencing data such as Oxford Nanopore reads.
-
-NanoPlot produces several QC outputs, including:
-
-HTML reports
-
-read length histograms
-
-quality score plots
-
-scatter plots
-
-summary statistics
-
 These files are stored in:results/qc/
 This step provides an overall quality assessment of the sequencing dataset.
+
 Step 2: Read-Level Statistical Analysis
-
 A custom Python script is used to calculate important statistics for each read in the FASTQ file.
-
 The script calculates:
-
 GC_Content
-
 Read_Length
-
 Mean_Quality
-
 The output is saved in:
-
 results/read_stats.csv
-
 This CSV file contains one row per read and includes the following columns:
-
 Read_ID
 Read_Length
 GC_Content
 Mean_Quality
-
 This step is important because it provides a structured dataset that can be used for downstream visualization and interpretation.
 
 Step 3: Data Visualization
-
 A separate visualization script reads the read_stats.csv file and generates plots showing the distributions of the three main metrics.
-
 The generated plots are:
-
 GC content distribution
-
 read length distribution
-
 mean read quality score distribution
-
-These figures are saved in:
-
-figures/
-
+These figures are saved in:figures/
 Expected output files include:
-
 figures/gc_distribution.png
 figures/read_length_distribution.png
 figures/quality_distribution.png
+
 Step 4: Summary Statistics
-
 In addition to the plots, the visualization step also calculates summary statistics for the three metrics.
-
 These include values such as:
-
 mean
-
 median
-
 minimum
-
 maximum
-
-The summary is saved in:
-
-results/summary_stats.txt
-
+The summary is saved in:results/summary_stats.txt
 This file helps provide a quick overview of the dataset without opening the full CSV file.
 
-How to Run the Pipeline
+## How to Run the Pipeline
 
 Follow the steps below to reproduce the analysis.
 
