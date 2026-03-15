@@ -48,3 +48,25 @@ A custom Python script analyzes each read in the FASTQ file and calculates the f
 
 The results are stored in a CSV file:results/read_stats.csv
 
+
+This file contains the following columns:
+Read_ID
+Read_Length
+GC_Content
+Mean_Quality
+
+
+---
+
+## Data Visualization
+
+A separate visualization script generates plots showing the distributions of the calculated metrics.
+
+The generated plots include:
+
+- GC Content Distribution
+- Read Length Distribution
+- Mean Read Quality Distribution
+
+These figures are saved in:
+
