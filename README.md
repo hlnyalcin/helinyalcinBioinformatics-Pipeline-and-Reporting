@@ -204,25 +204,19 @@ results/summary_stats.txt
 ### Visualization Outputs
 figures/
 
-## Example Results
+## Example Output Plots
 
 ### GC Content Distribution
 
 ![GC Content](figures/gc_distribution.png)
 
-The GC content distribution appears relatively centered, suggesting that there is no strong GC bias in the dataset.
-
 ### Read Length Distribution
 
 ![Read Length](figures/read_length_distribution.png)
 
-The read length distribution shows a mixture of shorter and longer reads, which is typical for long-read sequencing technologies such as Oxford Nanopore.
-
 ### Mean Read Quality Distribution
 
-![Quality Score](figures/quality_distribution.png)
-
-The quality score distribution indicates that most reads fall within a moderate quality range, suggesting that the dataset is generally suitable for downstream analysis.
+![Quality](figures/quality_distribution.png)
 
 ---
 
