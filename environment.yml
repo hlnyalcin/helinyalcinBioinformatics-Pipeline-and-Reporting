@@ -1,0 +1,12 @@
+name: nanopore-qc
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - snakemake
+  - nanoplot
+  - pandas
+  - matplotlib
