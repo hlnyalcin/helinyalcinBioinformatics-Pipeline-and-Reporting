@@ -36,46 +36,7 @@ NanoPlot generates several outputs including:
 
 These outputs help evaluate the quality of the sequencing dataset.
 
----
 
-## Repository Structure
-# Mini Bioinformatics Pipeline for Long-Read Quality Control
-
-## Project Description
-
-This repository contains a reproducible bioinformatics pipeline developed for a mini case study.  
-The goal of this project is to perform quality control analysis on long-read sequencing data and produce statistical summaries and visualizations before downstream analysis.
-
-The workflow was implemented using **Snakemake** together with custom **Python scripts**.
-
----
-
-## Objectives
-
-The pipeline performs the following tasks:
-
-1. Run a quality control tool designed for long-read sequencing data.
-2. Calculate key statistics for each read in the FASTQ file:
-   - GC content percentage
-   - Read length
-   - Mean read quality score
-3. Save the calculated statistics in a structured CSV format.
-4. Generate visualizations showing the distribution of these metrics.
-
----
-
-## Quality Control Tool
-
-This pipeline integrates **NanoPlot**, a QC tool designed for long-read sequencing technologies such as Oxford Nanopore.
-
-NanoPlot generates several outputs including:
-
-- read length histograms
-- quality score plots
-- yield plots
-- an interactive HTML report
-
-These outputs help evaluate the quality of the sequencing dataset.
 
 ---
 
