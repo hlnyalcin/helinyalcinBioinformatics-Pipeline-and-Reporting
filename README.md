@@ -40,7 +40,6 @@ These outputs help evaluate the quality of the sequencing dataset.
 
 ---
 
-## Repository Structure
 Bioinformatics Pipeline for Long-Read Quality Control
 │
 ├── Snakefile
@@ -48,25 +47,24 @@ Bioinformatics Pipeline for Long-Read Quality Control
 ├── README.md
 │
 ├── scripts
-│ ├── analyze_fastq.py
-│ ├── filter_fastq.py
-│ ├── filter_high_quality.py
-│ ├── plot_distributions.py
-│ └── visualize_stats.py
+│   ├── analyze_fastq.py
+│   ├── filter_fastq.py
+│   ├── filter_high_quality.py
+│   ├── plot_distributions.py
+│   └── visualize_stats.py
 │
 ├── results
-│ ├── read_stats.csv
-│ ├── summary_stats.txt
-│ └── qc
+│   ├── read_stats.csv
+│   ├── summary_stats.txt
+│   └── qc
 │
 ├── figures
-│ ├── gc_distribution.png
-│ ├── read_length_distribution.png
-│ └── quality_distribution.png
+│   ├── gc_distribution.png
+│   ├── read_length_distribution.png
+│   └── quality_distribution.png
 │
 └── communication
-└── email_to_professor.md
-
+    └── email_to_professor.md
 
 
 ---
