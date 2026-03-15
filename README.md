@@ -54,11 +54,15 @@ nanopore_project
 └── communication
     └── email_to_professor.md
 
+---
+
 ## Input Data
 
 The pipeline is designed for long-read sequencing data in FASTQ format.
 
 The original FASTQ file used in this project was too large to upload directly to GitHub, so it was processed locally.
+
+---
 
 ## How to Run the Pipeline
 
@@ -73,6 +77,8 @@ conda activate nanopore-qc
 3. Run the Snakemake workflow
 
 snakemake --cores 4
+
+---
 
 ## Main Outputs
 
@@ -103,14 +109,19 @@ Generated plots include:
 - read_length_distribution.png
 - quality_distribution.png
 
+---
+
 ## QC Tool Used
 
 This project uses NanoPlot, which is designed for long-read sequencing data such as Oxford Nanopore.
+
+---
 
 ## Brief Interpretation of Results
 
 The plots show the distributions of GC content, read lengths, and mean read quality scores. These outputs help evaluate sequencing quality before downstream analysis such as alignment.
 
+---
 ## Author
 
 This repository was prepared for a mini bioinformatics pipeline case study.
