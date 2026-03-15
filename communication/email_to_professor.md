@@ -1,4 +1,4 @@
-Subject: Mini Bioinformatics Pipeline Case Study
+Subject:Bioinformatics Pipeline Case Study Submission
 
 Dear Professor Kılıç,
 
