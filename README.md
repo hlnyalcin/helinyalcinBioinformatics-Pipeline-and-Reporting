@@ -39,6 +39,7 @@ These outputs help evaluate the quality of the sequencing dataset.
 
 
 ---
+## Repository Structure
 
 Bioinformatics Pipeline for Long-Read Quality Control
 │
