@@ -12,4 +12,4 @@ From the plots, the read length distribution looks reasonable for long-read sequ
 Based on these results, the dataset seems suitable for further analysis. Based on these results, the dataset looks generally suitable for further analysis. A possible next step could be aligning the reads to a reference genome. If needed, low-quality reads could also be filtered before alignment.
 
 Best regards,
-[Helinsu Yalçın]
+Helinsu Yalçın
