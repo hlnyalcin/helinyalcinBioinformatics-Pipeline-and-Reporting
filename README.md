@@ -46,4 +46,5 @@ A custom Python script analyzes each read in the FASTQ file and calculates the f
 - Read Length
 - Mean Read Quality Score
 
-The results are stored in a CSV file:
+The results are stored in a CSV file:results/read_stats.csv
+
