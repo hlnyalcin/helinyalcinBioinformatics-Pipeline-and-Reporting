@@ -204,6 +204,20 @@ results/summary_stats.txt
 ### Visualization Outputs
 figures/
 
+## Example Output Plots
+
+### GC Content Distribution
+
+![GC Content](figures/gc_distribution.png)
+
+### Read Length Distribution
+
+![Read Length](figures/read_length_distribution.png)
+
+### Mean Read Quality Distribution
+
+![Quality](figures/quality_distribution.png)
+
 ---
 
 ## Interpretation of Results
