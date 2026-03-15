@@ -1,0 +1,18 @@
+GC Content
+  mean: 53.00
+  median: 53.53
+  min: 14.97
+  max: 73.40
+
+Read Length
+  mean: 1038.24
+  median: 547.00
+  min: 86.00
+  max: 686155.00
+
+Mean Quality
+  mean: 17.90
+  median: 17.31
+  min: 2.75
+  max: 38.84
+
