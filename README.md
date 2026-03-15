@@ -1,4 +1,4 @@
-# Mini Bioinformatics Pipeline for Long-Read Quality Control
+# Bioinformatics Pipeline for Long-Read Quality Control
 
 ## Project Description
 
@@ -80,7 +80,7 @@ These outputs help evaluate the quality of the sequencing dataset.
 ---
 
 ## Repository Structure
-nanopore_project
+Bioinformatics Pipeline for Long-Read Quality Control
 │
 ├── Snakefile
 ├── environment.yml
